@@ -1,0 +1,50 @@
+.navbar{
+  padding: .8rem 5.5rem;
+}
+
+.bg-light{
+  background: #fff !important;
+}
+.navbar-light{
+  .navbar-nav {
+
+    .nav-link{
+      &:focus{
+        color:white;
+      }
+
+      &:hover{
+        color:white;
+      }
+    }
+
+    .nav-item{
+      line-height: 18px;
+      .nav-link{
+        color: $black;
+      }
+      .dropdown{
+        .btn-explore{
+          color: white;
+          border: 1px solid #43CB83;
+          background-color: rgba(0, 196, 154, 1) !important;
+          border-radius: 5px;
+          line-height: 18px;
+          padding: 10px 25px;
+          margin-right: 16px;
+        }
+      }
+    }
+
+  }
+}
+
+// google search
+.search-form  {
+  position: relative;
+  width: 350px;
+  background: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin-left: 37px;
+}

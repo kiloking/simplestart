@@ -17,8 +17,8 @@ $red: #ff1755;
 }
 
 body{
-    font-family: 'Open Sans' , sans-serif;
-    font-size: 18px;
+    font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,STHeitiSC-Light,Microsoft YaHei;
+    font-size: 15px;
     color:$black;
     font-weight: 400;
     font-style: normal;
@@ -31,6 +31,7 @@ a{
   
   &:hover{
     color:$red;
+    text-decoration: none;
     @include transition(.4s ease-in-out);
   }
 }
