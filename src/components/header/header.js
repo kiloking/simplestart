@@ -56,7 +56,7 @@ class Header extends Component {
 						</Dropdown>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link btn btn-outline-secondary" href="/dashboard"><i class="fa fa-user-circle-o" aria-hidden="true"></i> 登入</a>
+							<a className="nav-link btn btn-outline-secondary" href="/dashboard"><i className="fa fa-user-circle-o" aria-hidden="true"></i> 登入</a>
 						</li>
 					</ul>
 				</div>
